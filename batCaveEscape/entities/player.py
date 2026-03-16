@@ -5,7 +5,7 @@ from config.settings import *
 class Player:
     def __init__(self):
         self.image = pygame.image.load(
-            "batCaveEscape/assets/imgs/bat.png").convert_alpha()
+            "assets/imgs/bat.png").convert_alpha()
         self.image = pygame.transform.scale(self.image, (50, 40))
 
         self.rect = self.image.get_rect()

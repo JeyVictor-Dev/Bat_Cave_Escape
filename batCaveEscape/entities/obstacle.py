@@ -7,7 +7,7 @@ class Obstacle:
     def __init__(self, speed):
         self.speed = speed
         self.image = pygame.image.load(
-            "batCaveEscape/assets/imgs/stalactite.png").convert_alpha()
+            "assets/imgs/stalactite.png").convert_alpha()
         self.image = pygame.transform.scale(self.image, (OBSTACLE_WIDTH, 300))
 
         #  Posição do espaço entre obstáculos

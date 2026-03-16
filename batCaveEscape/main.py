@@ -16,19 +16,19 @@ font = pygame.font.SysFont("Lucia Sans Typewriter", 30)
 
 #  Sons do jogo
 pygame.mixer.init()
-jump_sound = pygame.mixer.Sound("batCaveEscape/assets/sounds/jump.mp3")
-hit_sound = pygame.mixer.Sound("batCaveEscape/assets/sounds/hit.wav")
-score_sound = pygame.mixer.Sound("batCaveEscape/assets/sounds/score.wav")
+jump_sound = pygame.mixer.Sound("assets/sounds/jump.mp3")
+hit_sound = pygame.mixer.Sound("assets/sounds/hit.wav")
+score_sound = pygame.mixer.Sound("assets/sounds/score.wav")
 game_over_sound = pygame.mixer.Sound(
-    "batCaveEscape/assets/sounds/game_over.wav")
+    "assets/sounds/game_over.wav")
 
-pygame.mixer.music.load("batCaveEscape/assets/sounds/music.mp3")
+pygame.mixer.music.load("assets/sounds/music.mp3")
 pygame.mixer.music.set_volume(0.3)
 pygame.mixer.music.play(-1)
 
 #  Background do jogo
 background = pygame.image.load(
-    "batCaveEscape/assets/imgs/cave_background.png").convert()
+    "assets/imgs/cave_background.png").convert()
 background = pygame.transform.scale(background, (WIDTH, HEIGHT))
 
 #  Obstaculos

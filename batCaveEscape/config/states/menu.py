@@ -11,7 +11,7 @@ class Menu:
 
         #  Carregar logo
         self.logo = pygame.image.load(
-            "batCaveEscape/assets/imgs/logo.png").convert_alpha()
+            "assets/imgs/logo.png").convert_alpha()
 
         self.logo = pygame.transform.scale(self.logo, (450, 150))
 
