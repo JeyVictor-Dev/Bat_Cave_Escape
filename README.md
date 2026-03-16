@@ -171,7 +171,11 @@ Este projeto foi criado para praticar:
 
 # 👨‍💻 Autor
 
-Desenvolvido por **Jey Victor Malta Mateó dos Santos**
+
+**Arte do Jogo e Lógica** - Desenvolvido por **Jey Victor Malta Mateó dos Santos**
+
+**Sons e Música** - Desenvolvido por ![RPG Music Maker - Travis Savoie](https://youtu.be/X02fUMPqLYs?t=4) e ![
+GameBurp](https://youtu.be/ATeWfqSsYtY)
 
 Estudante de **Análise e Desenvolvimento de Sistemas**
 Focado em **desenvolvimento de software, lógica de programação e desenvolvimento de jogos com Python**.
