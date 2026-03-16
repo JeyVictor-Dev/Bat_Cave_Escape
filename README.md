@@ -9,7 +9,7 @@ Este projeto foi desenvolvido como prática de **lógica de programação**, **o
 
 # 🎮 Gameplay
 
-![Gameplay](assets/video-demonstrativo.gif)
+![Gameplay](batCaveEscape/assets/video-demonstrativo.gif)
 
 O objetivo do jogo é simples:
 
